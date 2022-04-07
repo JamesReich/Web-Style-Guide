@@ -1,0 +1,63 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+  }
+
+.btn{
+
+
+    transition: background-color 0.3s ease-in;
+
+  }
+  
+  
+  .default {
+    background-color: $default-color;
+    &:hover{
+
+      background-color: lighten($color: $default-color, $amount: 15%);
+
+    }
+  }
+  
+  .error {
+    background-color: $error-color;
+    &:hover{
+
+      background-color: lighten($color: $error-color, $amount: 15%);
+
+    }
+  }
+  
+  .info {
+    background-color: $info-color;
+    &:hover{
+
+      background-color: lighten($color: $info-color, $amount: 15%);
+
+    }
+  }
+  
+  .success {
+    background-color: $success-color;
+    &:hover{
+
+      background-color: lighten($color: $success-color, $amount: 15%);
+
+    }
+  }
+  
+  .warning {
+    background-color: $warning-color;
+    &:hover{
+
+      background-color: lighten($color: $warning-color, $amount: 15%);
+
+    }
+  }
